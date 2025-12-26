@@ -14,11 +14,11 @@ A fast, lightweight log analysis tool written in C for processing system and app
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/logalyzer.git
-cd logalyzer
+git clone https://github.com/omeridrissi/log-analyzer.git
+cd log-analyzer
 
 # Compile
-gcc -o logalyzer analyzer.c
+make
 
 # Make executable
-chmod +x logalyzer
+chmod +x build/bin/log-analyzer
